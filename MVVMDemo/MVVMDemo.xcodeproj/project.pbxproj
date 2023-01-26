@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		167C7E79293A330800DE9A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C7E78293A330800DE9A05 /* AppDelegate.swift */; };
 		167C7E7B293A330800DE9A05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C7E7A293A330800DE9A05 /* SceneDelegate.swift */; };
-		167C7E7D293A330800DE9A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C7E7C293A330800DE9A05 /* ViewController.swift */; };
+		167C7E7D293A330800DE9A05 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167C7E7C293A330800DE9A05 /* MainViewController.swift */; };
 		167C7E80293A330800DE9A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167C7E7E293A330800DE9A05 /* Main.storyboard */; };
 		167C7E82293A330C00DE9A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 167C7E81293A330C00DE9A05 /* Assets.xcassets */; };
 		167C7E85293A330C00DE9A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 167C7E83293A330C00DE9A05 /* LaunchScreen.storyboard */; };
-		16C124BA293CD801001CF8F5 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C124B9293CD801001CF8F5 /* UserTableViewCell.swift */; };
+		16E197BF29816E7F005348EF /* MessierDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E197BE29816E7F005348EF /* MessierDataModel.swift */; };
+		16E197C129816EDB005348EF /* MessierViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E197C029816EDB005348EF /* MessierViewModel.swift */; };
+		16E197C6298175DF005348EF /* VC-Extension+TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E197C5298175DF005348EF /* VC-Extension+TableViewDataSource.swift */; };
+		16E197C829817603005348EF /* VC-Extension+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E197C729817603005348EF /* VC-Extension+TableViewDelegate.swift */; };
+		16E197CA2981762A005348EF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E197C92981762A005348EF /* DetailViewController.swift */; };
 		7F3752AF4662E37655E661CD /* Pods_MVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778E75065C70F13DDE4C20B1 /* Pods_MVVMDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +25,16 @@
 		167C7E75293A330800DE9A05 /* MVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		167C7E78293A330800DE9A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		167C7E7A293A330800DE9A05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		167C7E7C293A330800DE9A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		167C7E7C293A330800DE9A05 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		167C7E7F293A330800DE9A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		167C7E81293A330C00DE9A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		167C7E84293A330C00DE9A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		167C7E86293A330C00DE9A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16C124B9293CD801001CF8F5 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		16E197BE29816E7F005348EF /* MessierDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessierDataModel.swift; sourceTree = "<group>"; };
+		16E197C029816EDB005348EF /* MessierViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessierViewModel.swift; sourceTree = "<group>"; };
+		16E197C5298175DF005348EF /* VC-Extension+TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC-Extension+TableViewDataSource.swift"; sourceTree = "<group>"; };
+		16E197C729817603005348EF /* VC-Extension+TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC-Extension+TableViewDelegate.swift"; sourceTree = "<group>"; };
+		16E197C92981762A005348EF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5A42E7C2BDE3F1CAB6B6DA05 /* Pods-MVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemo.debug.xcconfig"; path = "Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		778E75065C70F13DDE4C20B1 /* Pods_MVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5CFFFC363AA39F8F8BB0BF /* Pods-MVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemo.release.xcconfig"; path = "Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				167C7E77293A330800DE9A05 /* MVVMDemo */,
+				16E197CB29817640005348EF /* Supporting Files */,
+				167C7E81293A330C00DE9A05 /* Assets.xcassets */,
 				167C7E76293A330800DE9A05 /* Products */,
 				9A5380964BCD6E1B6EE7E78B /* Pods */,
 				89E163BA8346FE847FB69737 /* Frameworks */,
@@ -65,16 +75,58 @@
 		167C7E77293A330800DE9A05 /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				167C7E78293A330800DE9A05 /* AppDelegate.swift */,
-				167C7E7A293A330800DE9A05 /* SceneDelegate.swift */,
-				167C7E7C293A330800DE9A05 /* ViewController.swift */,
-				16C124B9293CD801001CF8F5 /* UserTableViewCell.swift */,
-				167C7E7E293A330800DE9A05 /* Main.storyboard */,
-				167C7E81293A330C00DE9A05 /* Assets.xcassets */,
-				167C7E83293A330C00DE9A05 /* LaunchScreen.storyboard */,
-				167C7E86293A330C00DE9A05 /* Info.plist */,
+				16E197C42981750D005348EF /* Controller */,
+				16E197CC2981816A005348EF /* View */,
+				16E197C3298174FB005348EF /* ViewModel */,
+				16E197C2298174CF005348EF /* Model */,
 			);
 			path = MVVMDemo;
+			sourceTree = "<group>";
+		};
+		16E197C2298174CF005348EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16E197BE29816E7F005348EF /* MessierDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16E197C3298174FB005348EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16E197C029816EDB005348EF /* MessierViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		16E197C42981750D005348EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				167C7E7C293A330800DE9A05 /* MainViewController.swift */,
+				16E197C5298175DF005348EF /* VC-Extension+TableViewDataSource.swift */,
+				16E197C729817603005348EF /* VC-Extension+TableViewDelegate.swift */,
+				16E197C92981762A005348EF /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16E197CB29817640005348EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				167C7E86293A330C00DE9A05 /* Info.plist */,
+				167C7E78293A330800DE9A05 /* AppDelegate.swift */,
+				167C7E7A293A330800DE9A05 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16E197CC2981816A005348EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				167C7E7E293A330800DE9A05 /* Main.storyboard */,
+				167C7E83293A330C00DE9A05 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		89E163BA8346FE847FB69737 /* Frameworks */ = {
@@ -209,8 +261,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C124BA293CD801001CF8F5 /* UserTableViewCell.swift in Sources */,
-				167C7E7D293A330800DE9A05 /* ViewController.swift in Sources */,
+				16E197CA2981762A005348EF /* DetailViewController.swift in Sources */,
+				16E197C129816EDB005348EF /* MessierViewModel.swift in Sources */,
+				16E197BF29816E7F005348EF /* MessierDataModel.swift in Sources */,
+				16E197C829817603005348EF /* VC-Extension+TableViewDelegate.swift in Sources */,
+				167C7E7D293A330800DE9A05 /* MainViewController.swift in Sources */,
+				16E197C6298175DF005348EF /* VC-Extension+TableViewDataSource.swift in Sources */,
 				167C7E79293A330800DE9A05 /* AppDelegate.swift in Sources */,
 				167C7E7B293A330800DE9A05 /* SceneDelegate.swift in Sources */,
 			);
@@ -362,7 +418,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3W9683M8RM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVMDemo/Info.plist;
+				INFOPLIST_FILE = "/Users/pig/Desktop/IOS/Demo/XCode/MVVMDemo/MVVMDemo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -391,7 +447,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3W9683M8RM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVMDemo/Info.plist;
+				INFOPLIST_FILE = "/Users/pig/Desktop/IOS/Demo/XCode/MVVMDemo/MVVMDemo/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
